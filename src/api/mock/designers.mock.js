@@ -27,7 +27,7 @@ const initialDesigners = [
     id: 3,
     fullName: "Carol Williams",
     workingHours: "11:00-19:00",
-    isEmployed: false,
+    isEmployed: true,
     attachedObjectsCount: 0,
     createdAt: "2024-01-17T14:20:00.000Z",
     updatedAt: "2024-01-17T14:20:00.000Z"
