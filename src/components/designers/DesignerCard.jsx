@@ -22,7 +22,7 @@ const DesignerCard = ({ designer }) => {
           </div>
           
           <span className="px-3 py-1 bg-indigo-50 text-indigo-600 text-sm font-medium rounded-full">
-            Employed
+            {designer.isEmployed && "Employed"}
           </span>
         </div>
 
